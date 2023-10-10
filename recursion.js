@@ -81,33 +81,3 @@ function merge(leftHalfArray, rightHalfArray) {
 console.log(mergeSort([3, 2, 1, 4]));
 console.log(mergeSort([7, 5, 4, 2, 8, 1, 6, 3]));
 console.log(mergeSort([7, 5, 4, 2, 8, 1, 6]));
-
-// drafts :D
-
-// // sort within array
-// if (arrayLength === 2) {
-//   return array[0] === array[1]
-//     ? [array[0], array[1]]
-//     : array[0] > array[1]
-//     ? [array[1], array[0]]
-//     : [array[0], array[1]];
-// }
-
-// for (let i = 0; i < leftHalfArray.length; i++) {
-//   for (let j = 0; j < rightHalfArray.length; j++) {
-//     if (rightHalfArray.length === 0) {
-//       mergeArray = mergeArray.concat(leftHalfArray);
-//       break;
-//     }
-//     if (leftHalfArray[i] < rightHalfArray[j]) {
-//       mergeArray.push(leftHalfArray[i]);
-//       leftHalfArray.splice(leftHalfArray[i], 1);
-//       break;
-//     } else {
-//       mergeArray.push(rightHalfArray[j]);
-//       rightHalfArray.splice(rightHalfArray[j], 1);
-//       break;
-//     }
-//   }
-//   mergeArray = mergeArray.concat(rightHalfArray);
-// }
